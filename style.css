@@ -1,13 +1,15 @@
 
+
 body{
     overflow-y: hidden;
     margin: 0;padding: 0;
 
     box-sizing: border-box;
-   
+    background-color: black;
     background: url("img.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 83vh;
+    
+    background-position-x: 60vw;
+    background-size: 40vw 89vh;
 
 }
 .upload{
