@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="all">
+        <div class="sidenav">
+            <div class="yoursongs"><i class="fa fa-car"style="font-size:25px;"></i></div>
+            <div class="uploadsongs"><i class="fa-solid fa fa-list"style="font-size:25px;"></i></div>
+        </div>
+        <div class="upload">
+           
+            <input type='file' accept="audio/*" placeholder="" class="profile-aud" name="newsong" id="newsong">
+            <input type="text" placeholder="songname" id="namesong">
+            <input type="submit" class="uploadbtn"></input>
+        </div>
+        <div class="songlist">
+  
+        </div>
+        <div class="bottombar">
+            <input type="range" name="seekbar" id="seekbar">
+            <div class="mainbtns">
+                <div class="backward btn"><i class="fa-solid fa fa-backward" id="backward"></i></div>
+                <div class="pause btn"><i class="fa-solid fa fa-pause-circle" id="pause"></i></div>
+                <div class="forward btn"><i class="fa-solid fa fa-forward" id="forward"></i></div>
+            </div>
+            <div class="display">
+               
+        </div>
+        <div class="timecomp">
+            
+        </div>
+    </div>
+    <script src="omm.js"></script>
+</body>
+</html>
